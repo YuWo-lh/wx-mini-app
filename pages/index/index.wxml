@@ -1,15 +1,17 @@
-<view class="students">
-  <view class="item">
-    <text>序号</text>
-    <text>姓名</text>
-    <text>年龄</text>
-    <text>性别</text>
-  </view>
+<view>
+  <text>年龄： {{age}}\n</text>
+  <text wx:if="{{age >= 18}}">可以上网了</text>
+  <text wx:elif="{{age > 12}}">未成年</text>
+  <text wx:else>小朋友</text>
+  <button bindtap="add">+1</button>
+</view>
 
-  <view class="item" wx:for="{{students}}" wx:key="name">
-    <text>{{index+1}}</text>
-    <text>{{item.name}}</text>
-    <text>{{item.age}}</text>
-    <text>{{item.gender}}</text>
-  </view>
+<!-- wx:if 是通过js进行创建和销毁，频繁切换效率不高 -->
+<!-- hidden 是利用wxss进行显示和隐藏，频繁切换建议使用这个 -->
+
+<view hidden="{{flag}}">
+  aaaaa
+</view>
+<view hidden="{{!flag}}">
+  bbbbb
 </view>
