@@ -1,13 +1,3 @@
-<!-- pages/profile/index.wxml -->
-<view class="profile">
-  <view class="avatar">
-    <button open-type="chooseAvatar" bind:chooseavatar="chooseAvatar">
-      <image src="{{profile.avatarUrl}}"></image>
-    </button>
-  </view>
-  <view class="nickname">
-    <label for="">昵称:</label>
-    <input type="text" value="{{profile.name}}" />
-  </view>
-  <button class="save" type="primary">保存</button>
+<view>
+  <text>{{fullName}}</text>
 </view>

@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/message/message",
     "pages/contact/contact",
-    "pages/demo/demo"
+    "pages/demo/demo",
+    "pages/temp/temp"
   ],
   "window": {
     "backgroundTextStyle": "light",

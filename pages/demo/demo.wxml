@@ -1,4 +1,7 @@
-<!--pages/demo/demo.wxml-->
 <view>
-  <text>姓名:{{name}} \n性别:{{gender}}</text>
+  <text>demo</text>
+  <navigator url="/pages/temp/temp">跳转到temp页面</navigator>
+
+  
+  <navigator open-type="redirect" url="/pages/temp/temp">跳转到temp页面(不保留记录)</navigator>
 </view>
