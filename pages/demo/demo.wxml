@@ -1,0 +1,4 @@
+<!--pages/demo/demo.wxml-->
+<view>
+  <text>姓名:{{name}} \n性别:{{gender}}</text>
+</view>

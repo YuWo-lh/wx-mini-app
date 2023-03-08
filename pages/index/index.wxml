@@ -1,17 +1,2 @@
-<view>
-  <text>年龄： {{age}}\n</text>
-  <text wx:if="{{age >= 18}}">可以上网了</text>
-  <text wx:elif="{{age > 12}}">未成年</text>
-  <text wx:else>小朋友</text>
-  <button bindtap="add">+1</button>
-</view>
-
-<!-- wx:if 是通过js进行创建和销毁，频繁切换效率不高 -->
-<!-- hidden 是利用wxss进行显示和隐藏，频繁切换建议使用这个 -->
-
-<view hidden="{{flag}}">
-  aaaaa
-</view>
-<view hidden="{{!flag}}">
-  bbbbb
-</view>
+<navigator url="/pages/demo/demo?name=张三&gender=男">点我跳转到demo页面</navigator>
+<!-- <text>aaaa</text> -->
