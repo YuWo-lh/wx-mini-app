@@ -1,6 +1,13 @@
-<view>
-  <button bindtap="setData" type="primary">存入数据</button>
-  <button bindtap="getData" type="primary">读取数据</button>
-  <button bindtap="removeData" type="primary">删除数据</button>
-  <button bindtap="clearData" type="warn">清空数据</button>
+<!-- pages/profile/index.wxml -->
+<view class="profile">
+  <view class="avatar">
+    <button open-type="chooseAvatar" bind:chooseavatar="chooseAvatar">
+      <image src="{{profile.avatarUrl}}"></image>
+    </button>
+  </view>
+  <view class="nickname">
+    <label for="">昵称:</label>
+    <input type="text" value="{{profile.name}}" />
+  </view>
+  <button class="save" type="primary">保存</button>
 </view>

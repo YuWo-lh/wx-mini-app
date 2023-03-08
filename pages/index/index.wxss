@@ -1,3 +1,38 @@
-button {
-  margin: 10px auto;
+.profile {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100rpx;
+}
+
+.profile .avatar button {
+  background-color: transparent;
+}
+
+.profile .avatar button::after {
+  border: none;
+}
+
+.profile image {
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 50%;
+}
+
+.profile .nickname {
+  display: flex;
+  align-items: center;
+  height: 88rpx;
+  margin-top: 100rpx;
+  color: #333;
+  font-size: 30rpx;
+  border-bottom: 1rpx solid #ddd;
+}
+
+.profile .nickname label {
+  width: 100rpx;
+}
+
+.save {
+  width: 100% !important;
+  margin-top: 40rpx;
 }

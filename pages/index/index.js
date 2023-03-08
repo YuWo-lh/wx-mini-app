@@ -1,17 +1,13 @@
 Page ({
   data: {
-
+    profile: {
+      name: 'tiger',
+      avatarUrl: '/static/images/avatar.jpg'
+    }
   },
-  setData() {
-    wx.setStorageSync('name', '张三')
-  },
-  getData() {
-    console.log(wx.getStorageSync('name'))
-  },
-  removeData() {
-    wx.removeStorageSync('name')
-  },
-  clearData() {
-    wx.clearStorage()
+  chooseAvatar(e) {
+    this.setData({
+      'profile.avatarUrl': e.detail.avatarUrl
+    })
   }
 })
