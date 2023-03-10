@@ -1,3 +1,5 @@
 <view>
   <text>{{fullName}}</text>
 </view>
+
+<auth is-login="{{true}}"></auth>

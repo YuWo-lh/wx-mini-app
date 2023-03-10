@@ -42,5 +42,8 @@
         "selectedIconPath": "/images/tabs/contact-active.png"
       }
     ]
+  },
+  "usingComponents": {
+    "auth": "/components/auth"
   }
 }
