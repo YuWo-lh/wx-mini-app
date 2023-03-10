@@ -47,20 +47,23 @@
     "van-button": "@vant/weapp/button/index",
     "van-cell": "@vant/weapp/cell/index",
     "van-cell-group": "@vant/weapp/cell-group/index",
-    "van-cell": "@vant/weapp/cell/index",
-    "van-cell-group": "@vant/weapp/cell-group/index",
     "van-swipe-cell": "@vant/weapp/swipe-cell/index"
   },
   "subPackages": [
     {
       "root": "goods_pkg",
-      "pages": ["pages/list/index", "pages/goods/index"]
+      "pages": [
+        "pages/list/index",
+        "pages/goods/index"
+      ]
     }
   ],
   "preloadRule": {
     "pages/index/index": {
       "network": "wifi",
-      "packages": ["goods_pkg"]
+      "packages": [
+        "goods_pkg"
+      ]
     }
   }
 }

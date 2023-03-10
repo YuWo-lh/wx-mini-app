@@ -13,3 +13,5 @@
 
 
 <navigator url="/goods_pkg/pages/goods/index">goods</navigator>
+
+<button bindtap="log">behavior</button>

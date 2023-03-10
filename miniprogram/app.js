@@ -15,5 +15,7 @@ App({
   },
   globalData: {
     userInfo: null
-  }
+  },
+  // 在 app.js 挂载 token,在任意页面和组件中调用 getApp 获取小程序的实例
+  token: 'abcd',
 })
