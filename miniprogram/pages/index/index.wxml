@@ -1,5 +1,8 @@
-<van-button type="default">默认按钮</van-button>
-<van-button type="primary">主要按钮</van-button>
-<van-button type="info">信息按钮</van-button>
-<van-button type="warning">警告按钮</van-button>
-<van-button type="danger">危险按钮</van-button>
+<van-cell-group inset>
+  <van-cell title="世纪佳缘" icon="like-o">
+  <!-- 通过默认插槽可以自定义value属性的内容，这样做可以给value做一些更加复杂高级的操作 -->
+    <text class="value">审核失败</text>
+  </van-cell>
+  <van-cell title="房间号" value="1号楼1单元111室" icon="location-o"></van-cell>
+  <van-cell title="业主" value="喂喂喂" icon="manager-o" is-link></van-cell>
+</van-cell-group>
