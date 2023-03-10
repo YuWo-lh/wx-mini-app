@@ -1,0 +1,7 @@
+<view>
+  <text>demo</text>
+  <navigator url="/pages/temp/temp">跳转到temp页面</navigator>
+
+  
+  <navigator open-type="redirect" url="/pages/temp/temp">跳转到temp页面(不保留记录)</navigator>
+</view>

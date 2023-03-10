@@ -1,0 +1,6 @@
+<view wx:if="{{isLogin}}">
+  登录成功
+</view>
+<view wx:else>
+  还未登录
+</view>
