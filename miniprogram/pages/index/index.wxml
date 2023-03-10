@@ -1,19 +1,5 @@
-<view>
-  <text>{{fullName}}</text>
-</view>
-
-<!-- 插槽的使用 -->
-<view>
-  <authorization>
-    <text>\n111\n</text>
-    <text>222</text>
-
-    <!-- 具名插槽 -->
-    <view slot="first">
-      L
-    </view>
-    <view slot="last">
-      H
-    </view>
-  </authorization>
-</view>
+<van-button type="default">默认按钮</van-button>
+<van-button type="primary">主要按钮</van-button>
+<van-button type="info">信息按钮</van-button>
+<van-button type="warning">警告按钮</van-button>
+<van-button type="danger">危险按钮</van-button>

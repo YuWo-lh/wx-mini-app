@@ -15,7 +15,6 @@
     "navigationBarTitleText": "Lucy",
     "navigationBarTextStyle": "white"
   },
-  "style": "v2",
   "sitemapLocation": "sitemap.json",
   "tabBar": {
     "backgroundColor": "#fff",
@@ -44,6 +43,7 @@
     ]
   },
   "usingComponents": {
-    "authorization": "/components/authorization/authorization"
+    "authorization": "/components/authorization/authorization",
+    "van-button": "@vant/weapp/button/index"
   }
 }
