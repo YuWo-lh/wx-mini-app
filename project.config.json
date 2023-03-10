@@ -54,6 +54,5 @@
     "tabIndent": "insertSpaces",
     "tabSize": 2
   },
-  "srcMiniprogramRoot": "miniprogram/",
-  "simulatorPluginLibVersion": {}
+  "srcMiniprogramRoot": "miniprogram/"
 }

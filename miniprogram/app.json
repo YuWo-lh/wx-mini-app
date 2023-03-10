@@ -44,6 +44,6 @@
     ]
   },
   "usingComponents": {
-    "auth": "/components/auth"
+    "authorization": "/components/authorization/authorization"
   }
 }
