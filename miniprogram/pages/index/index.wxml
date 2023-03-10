@@ -1,8 +1,15 @@
-<van-cell-group inset>
-  <van-cell title="世纪佳缘" icon="like-o">
-  <!-- 通过默认插槽可以自定义value属性的内容，这样做可以给value做一些更加复杂高级的操作 -->
-    <text class="value">审核失败</text>
-  </van-cell>
-  <van-cell title="房间号" value="1号楼1单元111室" icon="location-o"></van-cell>
-  <van-cell title="业主" value="喂喂喂" icon="manager-o" is-link></van-cell>
-</van-cell-group>
+<van-swipe-cell right-width="{{ 65 }}" class="swipe-cell">
+  <van-cell-group inset>
+    <van-cell title="世纪佳缘" icon="like-o">
+      <!-- 通过默认插槽可以自定义value属性的内容，这样做可以给value做一些更加复杂高级的操作 -->
+      <text class="value">审核失败</text>
+    </van-cell>
+    <van-cell title="房间号" value="1号楼1单元111室" icon="location-o"></van-cell>
+    <van-cell title="业主" value="喂喂喂" icon="manager-o" is-link></van-cell>
+  </van-cell-group>
+  <!-- 右侧滑动内容 -->
+  <view slot="right">删除</view>
+</van-swipe-cell>
+
+
+<navigator url="/goods_pkg/pages/goods/index">goods</navigator>

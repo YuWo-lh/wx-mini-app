@@ -4,3 +4,17 @@ page {
 .value {
   color: crimson;
 }
+
+.swipe-cell {
+  padding-top: 35px !important;
+}
+.van-swipe-cell__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65px ;
+  margin-left: -20px;
+  text-align: center;
+  color: #fff;
+  background-color: #eb5757;
+}
